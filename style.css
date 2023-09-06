@@ -1,11 +1,10 @@
 
 .knot{
-    position: fixed;
+    position: relative;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
     top:30%;
     left:27.5%;
     width: 100px; /* Set the width */
@@ -14,12 +13,11 @@
     
 }
 .marley{
-    position: fixed;
+    position: relative;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
     top:40%;
     left:27.5%;
     width: 100px; /* Set the width */
@@ -28,12 +26,11 @@
     
 }
 .locs{
-    position: fixed;
+    position: relative;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
     top:50%;
     left:27.5%;
     width: 100px; /* Set the width */
@@ -42,12 +39,11 @@
     
 }
 .ilocs{
-    position: fixed;
+    position: relative;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
     top:60%;
     left:27.5%;
     width: 100px; /* Set the width */
@@ -56,12 +52,11 @@
     
 }
 .cornrow{
-    position: fixed;
+    position: relative;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
     top:70%;
     left:27.5%;
     width: 100px; /* Set the width */
@@ -70,12 +65,11 @@
     
 }
 .box{
-    position: fixed;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
+    position: relative;
     top:30%;
     left:47.5%;
     width: 100px; /* Set the width */
@@ -83,84 +77,77 @@
 }
 
 .swig{
-    position: fixed;
+    position: relative;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
     top:50%;
     left:47.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 }
 .wwig{
-    position: fixed;
+    position: relative;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
     top:60%;
     left:47.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 }
 .curly{
-    position: fixed;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
+    position: relative;
     top:70%;
     left:47.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 }
 .boh{
-    position: fixed;
+    position: relative;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
     top:30%;
     left:67.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 }
 .crochet{
-    position: fixed;
+    position: relative;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
     top:40%;
     left:67.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 }
 .fulani{
-    position: fixed;
+    position: relative;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
     top:50%;
     left:67.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 }
 .crisscross{
-    position: fixed;
+    position: relative;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
     top:60%;
     left:67.5%;
     width: 100px; /* Set the width */
