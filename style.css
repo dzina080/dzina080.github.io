@@ -1,9 +1,16 @@
-.logo {
-    position: fixed;
-    left: 50%;
-    top: 0%;
-}
+
 .knot{
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    color: peru;
+    border-color: aliceblue;
+    width: 100px; /* Set the width */
+     height: 40px; /* Set the height */
+
+    
+}
+.mens{
     position: relative;
     background-color: white;
     border-radius: 10px;
@@ -290,12 +297,7 @@
     height: 40px; /* Set the height */
     border-radius: 15px;
 }
-.button4{
-    position: relative;
-    width: 100px; /* Set the width */
-    height: 40px; /* Set the height */
-    border-radius: 15px;
-}
+
 .fades{
     
     background-color: white;
@@ -361,6 +363,7 @@
 
 .container{
     margin: 0 auto; /* This will center the container */
+
     width: 90%;
     height: 90%;
     max-width: 100%;
