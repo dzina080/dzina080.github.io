@@ -15,85 +15,100 @@
      <div>
 </head>
 <body>
-    <div>
-        <button id=hair class=button1 style="background-color: white;border-radius: 5px;color:peru;border-color: aliceblue;" 
-        > Hairstyles
-        <script>
-            // Get the button element by its ID
-            var hair = document.getElementById("hair");
+    <div class= "container">
+        <div class="gallery">
+            <div class="column">
+                <div>
+                    <button id=hair class=button1 style="background-color: white;border-radius: 5px;color:peru;border-color: aliceblue;" 
+                    > Hairstyles
+                    <script>
+                        // Get the button element by its ID
+                        var hair = document.getElementById("hair");
+                
+                        // Add a click event listener to the button
+                        hair.addEventListener("click", function() {
+                            // Specify the URL of the page you want to navigate to
+                            var newPageUrl = "hairstyles.html"; // Replace with your desired URL
+                
+                            // Use window.location to navigate to the new page
+                            window.location.href = newPageUrl;
+                        });
+                    </script>
+                    
+                    
+                    </button>
+                </div>
+                <div>
+                    <button id="trend" class=button2 style="background-color: white;border-radius: 5px;color:peru;border-color: aliceblue;" 
+                    > Trends
+                    <script>
+                        // Get the button element by its ID
+                        var trend = document.getElementById("trend");
+                
+                        // Add a click event listener to the button
+                        trend.addEventListener("click", function() {
+                            // Specify the URL of the page you want to navigate to
+                            var newPageUrl = "trends.html"; // Replace with your desired URL
+                
+                            // Use window.location to navigate to the new page
+                            window.location.href = newPageUrl;
+                        });
+                    </script>
+                    
+                    
+                    </button>
+                </div>
     
-            // Add a click event listener to the button
-            hair.addEventListener("click", function() {
-                // Specify the URL of the page you want to navigate to
-                var newPageUrl = "hairstyles.html"; // Replace with your desired URL
-    
-                // Use window.location to navigate to the new page
-                window.location.href = newPageUrl;
-            });
-        </script>
+            </div>
+            <div class="column">
+                <div>
+                    <button id= nail class=button3 style="background-color: white;border-radius: 5px;color:peru;border-color: aliceblue;" 
+                    > Nails
+                    <script>
+                        // Get the button element by its ID
+                        var nail = document.getElementById("nail");
+                
+                        // Add a click event listener to the button
+                        nail.addEventListener("click", function() {
+                            // Specify the URL of the page you want to navigate to
+                            var newPageUrl = "nails.html"; // Replace with your desired URL
+                
+                            // Use window.location to navigate to the new page
+                            window.location.href = newPageUrl;
+                        });
+                    </script>
+                    
+                    
+                    
+                    </button>
+                </div>
+                <div>
+                    <button id= mens class=button4 style="background-color: white;border-radius: 5px;color:peru;border-color: aliceblue;" 
+                    > Men's
+                    
+                    </button>
+                    <script>
+                        // Get the button element by its ID
+                        var mens = document.getElementById("mens");
+                
+                        // Add a click event listener to the button
+                        mens.addEventListener("click", function() {
+                            // Specify the URL of the page you want to navigate to
+                            var newPageUrl = "men.html"; // Replace with your desired URL
+                
+                            // Use window.location to navigate to the new page
+                            window.location.href = newPageUrl;
+                        });
+                    </script>
+                
+            </div>
+            
+        </div>
         
         
-        </button>
     </div>
-    <div>
-        <button id="trend" class=button2 style="background-color: white;border-radius: 5px;color:peru;border-color: aliceblue;" 
-        > Trends
-        <script>
-            // Get the button element by its ID
-            var trend = document.getElementById("trend");
     
-            // Add a click event listener to the button
-            trend.addEventListener("click", function() {
-                // Specify the URL of the page you want to navigate to
-                var newPageUrl = "trends.html"; // Replace with your desired URL
     
-                // Use window.location to navigate to the new page
-                window.location.href = newPageUrl;
-            });
-        </script>
-        
-        
-        </button>
-    </div>
-    <div>
-        <button id= nail class=button3 style="background-color: white;border-radius: 5px;color:peru;border-color: aliceblue;" 
-        > Nails
-        <script>
-            // Get the button element by its ID
-            var nail = document.getElementById("nail");
-    
-            // Add a click event listener to the button
-            nail.addEventListener("click", function() {
-                // Specify the URL of the page you want to navigate to
-                var newPageUrl = "nails.html"; // Replace with your desired URL
-    
-                // Use window.location to navigate to the new page
-                window.location.href = newPageUrl;
-            });
-        </script>
-        
-        
-        
-        </button>
-    </div>
-    <div>
-        <button id= mens class=button4 style="background-color: white;border-radius: 5px;color:peru;border-color: aliceblue;" 
-        > Men's
-        
-        </button>
-        <script>
-            // Get the button element by its ID
-            var mens = document.getElementById("mens");
-    
-            // Add a click event listener to the button
-            mens.addEventListener("click", function() {
-                // Specify the URL of the page you want to navigate to
-                var newPageUrl = "men.html"; // Replace with your desired URL
-    
-                // Use window.location to navigate to the new page
-                window.location.href = newPageUrl;
-            });
-        </script>
     </div>
     
 

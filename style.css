@@ -5,8 +5,6 @@
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    top:30%;
-    left:27.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 
@@ -18,8 +16,6 @@
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    top:40%;
-    left:27.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 
@@ -31,8 +27,6 @@
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    top:50%;
-    left:27.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 
@@ -44,8 +38,6 @@
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    top:60%;
-    left:27.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 
@@ -57,8 +49,6 @@
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    top:70%;
-    left:27.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 
@@ -70,8 +60,6 @@
     color: peru;
     border-color: aliceblue;
     position: relative;
-    top:30%;
-    left:47.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 }
@@ -82,8 +70,6 @@
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    top:50%;
-    left:47.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 }
@@ -93,8 +79,6 @@
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    top:60%;
-    left:47.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 }
@@ -104,8 +88,6 @@
     color: peru;
     border-color: aliceblue;
     position: relative;
-    top:70%;
-    left:47.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 }
@@ -115,8 +97,6 @@
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    top:30%;
-    left:67.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 }
@@ -126,8 +106,6 @@
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    top:40%;
-    left:67.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 }
@@ -137,8 +115,6 @@
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    top:50%;
-    left:67.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 }
@@ -148,278 +124,216 @@
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    top:60%;
-    left:67.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 }
 .passion{
-    position: fixed;
+    position: relative;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
-    top:40%;
-    left:47.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 }
 .paris{
-    position: fixed;
+    position: relative;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
-    top:30%;
-    left:27.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 
     
 }
 .london{
-    position: fixed;
+    position: relative;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
-    top:40%;
-    left:27.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 
     
 }
 .miami{
-    position: fixed;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
-    top:50%;
-    left:27.5%;
+    position: relative;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 
     
 }
 .cancun{
-    position: fixed;
+    position: relative;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
-    top:60%;
-    left:27.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 
     
 }
 .assinie{
-    position: fixed;
+    position: relative;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
-    top:70%;
-    left:27.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 
     
 }
 .durban{
-    position: fixed;
+    position: relative;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
-    top:30%;
-    left:47.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 }
 
 .milan{
-    position: fixed;
+    position: relative;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
-    top:50%;
-    left:47.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 }
 .lagos{
-    position: fixed;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
-    top:60%;
-    left:47.5%;
+    position: relative;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 }
 .tokyo{
-    position: fixed;
+    position: relative;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
-    top:70%;
-    left:47.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 }
 .nairobi{
-    position: fixed;
+    position: relative;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
-    top:30%;
-    left:67.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 }
 .toronto{
-    position: fixed;
+    
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
-    top:40%;
-    left:67.5%;
+    position: relative;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 }
 .dakar{
-    position: fixed;
+    
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
-    top:50%;
-    left:67.5%;
+    position: relative;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 }
 
 .kossyam{
-    position: fixed;
+    position: relative;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
-    top:40%;
-    left:47.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 }
 .button2{
-    position: fixed;
-    top: 60%;
-    left: 37.5%;
+    position: relative;
     width: 100px; /* Set the width */
     height: 40px; /* Set the height */
 }
 .button1{
-    position: fixed;
-    top: 40%;
-    left: 37.5%;
+    position: relative;
     width: 100px; /* Set the width */
     height: 40px; /* Set the height */
 }
 .button3{
-    position: fixed;
-    top: 60%;
-    right: 37.5%;
+    position: relative;
     width: 100px; /* Set the width */
     height: 40px; /* Set the height */
 }
 .button4{
-    position: fixed;
-    top: 40%;
-    right: 37.5%;
+    position: relative;
     width: 100px; /* Set the width */
     height: 40px; /* Set the height */
 }
 .fades{
-    position: fixed;
+    
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
-    top:30%;
-    left:27.5%;
+    position: relative;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 
     
 }
 .twist{
-    position: fixed;
+    position: relative;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
-    top:30%;
-    left:67.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 }
 .nattes{
-    position: fixed;
+    
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
-    top:30%;
-    left:47.5%;
+    position: relative;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 }
 .boxh{
-    position: fixed;
+   
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
-    top:40%;
-    left:47.5%;
+    position: relative;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 }
 .locsh{
-    position: fixed;
+    position: relative;
     background-color: white;
     border-radius: 10px;
     color: peru;
     border-color: aliceblue;
-    position: fixed;
-    top:40%;
-    left:27.5%;
     width: 100px; /* Set the width */
      height: 40px; /* Set the height */
 
@@ -430,7 +344,7 @@
     max-height: 100%
 }
 .logo{
-    position: fixed;
+    position: relative;
     top: 5%;
     left: 47.5%;
 }
@@ -445,11 +359,13 @@
 }
 
 .container{
-    
+    left: 37.5%;
+    top:70%;
     width: 70%;
     height: 70%;
-    margin: auto; 
+     
     padding: 40px 0;
+    position: relative;
 }
 .column{
     display: flex;
