@@ -360,6 +360,10 @@
     display: flex;
     gap: 20px;
 }
+.gallery1{
+    display: flex;
+    gap: 5px;
+}
 
 .container{
     margin: 0 auto; /* This will center the container */
@@ -378,7 +382,7 @@
 }
 .photos img{
     max-width: 100%;
-    height: 40%;
+    height: 60%;
     border-radius: 10px;
     object-fit: cover;
 }
