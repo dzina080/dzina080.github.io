@@ -271,21 +271,29 @@
     position: relative;
     width: 300px; /* Set the width */
     height: 120px; /* Set the height */
+    font-size: 60px;
+    border-radius: 10px;
 }
 .button1{
     position: relative;
     width: 300px; /* Set the width */
     height: 120px; /* Set the height */
+    font-size: 60px;
+    border-radius: 10px;
 }
 .button3{
     position: relative;
     width: 300px; /* Set the width */
     height: 120px; /* Set the height */
+    font-size: 60px;
+    border-radius: 10px;
 }
 .button4{
     position: relative;
     width: 300px; /* Set the width */
     height: 120px; /* Set the height */
+    font-size: 60px;
+    border-radius: 10px;
 }
 .fades{
     
@@ -359,7 +367,7 @@
 }
 
 .container{
-    left: 32%;
+    left: 50%;
     top:0%;
     width: 90%;
     height: 90%;
