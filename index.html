@@ -11,12 +11,12 @@
 
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8" />
-    <div class="logo">
-        <img src="logo1.png" alt="">
-     </div>
-     <div>
+    
 </head>
 <body>
+    <div class="logo">
+        <img src="logo1.png" alt="">
+    </div>
     <div class= "container">
         <div class="gallery">
             <div class="column">
@@ -40,26 +40,7 @@
                     
                     </button>
                 </div>
-                <div>
-                    <button id="trend" class=button2 style="background-color: white;border-radius: 5px;color:peru;border-color: aliceblue;" 
-                    > Trends
-                    <script>
-                        // Get the button element by its ID
-                        var trend = document.getElementById("trend");
                 
-                        // Add a click event listener to the button
-                        trend.addEventListener("click", function() {
-                            // Specify the URL of the page you want to navigate to
-                            var newPageUrl = "trends.html"; // Replace with your desired URL
-                
-                            // Use window.location to navigate to the new page
-                            window.location.href = newPageUrl;
-                        });
-                    </script>
-                    
-                    
-                    </button>
-                </div>
     
             </div>
             <div class="column">
@@ -84,26 +65,33 @@
                     
                     </button>
                 </div>
+                
+            </div>
+            <div class="column">
                 <div>
-                    <button id= mens class=button4 style="background-color: white;border-radius: 5px;color:peru;border-color: aliceblue;" 
-                    > Men's
-                    
-                    </button>
+                    <button id="trend" class=button2 style="background-color: white;border-radius: 5px;color:peru;border-color: aliceblue;" 
+                    > Trends
                     <script>
                         // Get the button element by its ID
-                        var mens = document.getElementById("mens");
+                        var trend = document.getElementById("trend");
                 
                         // Add a click event listener to the button
-                        mens.addEventListener("click", function() {
+                        trend.addEventListener("click", function() {
                             // Specify the URL of the page you want to navigate to
-                            var newPageUrl = "men.html"; // Replace with your desired URL
+                            var newPageUrl = "trends.html"; // Replace with your desired URL
                 
                             // Use window.location to navigate to the new page
                             window.location.href = newPageUrl;
                         });
                     </script>
+                    
+                    
+                    </button>
+                </div>
+                
                 
             </div>
+            
             
         </div>
         
