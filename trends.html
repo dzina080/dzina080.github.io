@@ -1,117 +1,30 @@
 <!DOCTYPE html>
-<html>
-    <style>
-        html {
-          background-color: rgba(249.9, 234.6, 216.75, 1); /* Set the background color here */
-          /* Additional CSS styles for the html element can be added here */
-        }
-        .photos img{
-          max-width: 100%;
-          max-height: 100%;
-          border-radius: 10px;
-          object-fit: cover;
-        }
-        .photos img:hover{
-          -webkit-transform: scale(1.2);
-          -ms-transform: scale(1.2);
-          transform: scale(1.2);
-          transition: 1s ease;
-        }
-        .container{
-          margin: 0 auto; /* This will center the container */
-
-          width: 90%;
-          height: 90%;
-          max-width: 100%;
-     
-          padding: 40px 0;
-          position: relative;
-        }
-
-      </style>
-    <head>
-     
-     <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Image Column</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
 
-    
-    
-    
-
-    </head>
-    <body>
-        <style>
-            html {
-              background-color: rgba(249.9, 234.6, 216.75, 1); /* Set the background color here */
-              /* Additional CSS styles for the html element can be added here */
-            }
-            .photos img{
-              max-width: 100%;
-              max-height: 100%;
-              border-radius: 10px;
-              object-fit: cover;
-            }
-            .photos img:hover{
-              -webkit-transform: scale(1.2);
-              -ms-transform: scale(1.2);
-              transform: scale(1.2);
-              transition: 1s ease;
-            }
-            .container{
-              margin: 0 auto; /* This will center the container */
-    
-              width: 90%;
-              height: 90%;
-              max-width: 100%;
-         
-              padding: 40px 0;
-              position: relative;
-            }
-    
-          </style>
-        
-
-        <div class="container" id="imagecontainer">
-            <div class="gallery1" >
-                <div class="column" id="imagecolumn">
-
-                </div>
-            </div>
-        </div>
-
-    
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                const imagecolumn = document.getElementById('imagecolumn');
-    
-                // Array of image file names
-                const imageNames = [
-                    "Image1.jpg", "Image2.jpg", "Image3.jpg", "Image4.jpg", "Image5.jpg", 
-                    "Image6.jpg", "Image7.jpg", "Image8.jpg", "Image9.jpg", "Image10.jpg", 
-                    "Image11.jpg", "Image12.jpg", "Image13.jpg", "Image14.jpg", "Image15.jpg",
-                    "Image16.jpg", "Image17.jpg", "Image18.jpg", "Image19.jpg", "Image20.jpg",
-                    "Image21.jpg", "Image22.jpg", "Image23.jpg", "Image24.jpg", "Image25.jpg",
-                    "Image26.jpg", "Image27.jpg", "Image28.jpg", "Image29.jpg", "Image30.jpg"
-                ];
-    
-                // Loop through image names and create img elements
-                for (const imageName of imageNames) {
-                    const img = document.createElement('img');
-                    img.src = `trends/${imageName}`; // Assuming your images are in a folder named "trends"
-                    img.alt = "Image";
-                    img.style="border-radius: 10px;"; // Add a class for styling if needed
-                    imagecolumn.appendChild(img);
-                    
-
-                }
-                
-            });
-            
-        </script>
-    
-
-        
-    
-    </body>
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <img src="trends\Image24.jpg" alt="Image 1">
+    <img src="trends\Image25.jpg" alt="Image 2">
+    <img src="trends\Image23.jpg" alt="Image 3">
+    <!-- Add more images as needed -->
+</body>
 </html>
