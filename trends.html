@@ -72,39 +72,40 @@
           </style>
         
 
-        <div class="container" style="margin : 0 auto; width : 90%;height: 90%;max-width: 100%;padding: 40px 0;position: relative;" >
+        <div class="container">
             <div class="gallery1" >
                 <div class="column" id="imagecolumn">
+                    <script>
+                        document.addEventListener('DOMContentLoaded', function() {
+                            const imagecolumn = document.getElementById('imagecolumn');
+                
+                            // Array of image file names
+                            const imageNames = [
+                                "Image1.jpg", "Image2.jpg", "Image3.jpg", "Image4.jpg", "Image5.jpg", 
+                                "Image6.jpg", "Image7.jpg", "Image8.jpg", "Image9.jpg", "Image10.jpg", 
+                                "Image11.jpg", "Image12.jpg", "Image13.jpg", "Image14.jpg", "Image15.jpg",
+                                "Image16.jpg", "Image17.jpg", "Image18.jpg", "Image19.jpg", "Image20.jpg",
+                                "Image21.jpg", "Image22.jpg", "Image23.jpg", "Image24.jpg", "Image25.jpg",
+                                "Image26.jpg", "Image27.jpg", "Image28.jpg", "Image29.jpg", "Image30.jpg"
+                            ];
+                
+                            // Loop through image names and create img elements
+                            for (const imageName of imageNames) {
+                                const img = document.createElement('img');
+                                img.src = `trends/${imageName}`; // Assuming your images are in a folder named "trends"
+                                img.alt = "Image";
+                                img.style="border-radius: 10px;"; // Add a class for styling if needed
+                                imagecolumn.appendChild(img);
+                            }
+                        });
+                    </script>
 
                 </div>
             </div>
         </div>
 
     
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                const imagecolumn = document.getElementById('imagecolumn');
-    
-                // Array of image file names
-                const imageNames = [
-                    "Image1.jpg", "Image2.jpg", "Image3.jpg", "Image4.jpg", "Image5.jpg", 
-                    "Image6.jpg", "Image7.jpg", "Image8.jpg", "Image9.jpg", "Image10.jpg", 
-                    "Image11.jpg", "Image12.jpg", "Image13.jpg", "Image14.jpg", "Image15.jpg",
-                    "Image16.jpg", "Image17.jpg", "Image18.jpg", "Image19.jpg", "Image20.jpg",
-                    "Image21.jpg", "Image22.jpg", "Image23.jpg", "Image24.jpg", "Image25.jpg",
-                    "Image26.jpg", "Image27.jpg", "Image28.jpg", "Image29.jpg", "Image30.jpg"
-                ];
-    
-                // Loop through image names and create img elements
-                for (const imageName of imageNames) {
-                    const img = document.createElement('img');
-                    img.src = `trends/${imageName}`; // Assuming your images are in a folder named "trends"
-                    img.alt = "Image";
-                    img.style="border-radius: 10px;"; // Add a class for styling if needed
-                    imagecolumn.appendChild(img);
-                }
-            });
-        </script>
+       
     
 
         
