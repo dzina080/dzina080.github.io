@@ -83,7 +83,7 @@
     
         <script>
             document.addEventListener('DOMContentLoaded', function() {
-                const imagecontainer = document.getElementById('imagecontainer');
+                const imagecolumn = document.getElementById('imagecolumn');
     
                 // Array of image file names
                 const imageNames = [
@@ -101,15 +101,13 @@
                     img.src = `trends/${imageName}`; // Assuming your images are in a folder named "trends"
                     img.alt = "Image";
                     img.style="border-radius: 10px;"; // Add a class for styling if needed
-                    const imagecontainer = document.getElementById('imagecontainer');
-    
-                    imagecontainer.appendChild(img);
+                    imagecolumn.appendChild(img);
                     
 
                 }
                 
             });
-
+            
         </script>
     
 
