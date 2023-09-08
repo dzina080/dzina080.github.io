@@ -5,6 +5,19 @@
           background-color: rgba(249.9, 234.6, 216.75, 1); /* Set the background color here */
           /* Additional CSS styles for the html element can be added here */
         }
+        .photos img{
+          max-width: 100%;
+          max-height: 100%;
+          border-radius: 10px;
+          object-fit: cover;
+        }
+        .photos img:hover{
+          -webkit-transform: scale(1.2);
+          -ms-transform: scale(1.2);
+          transform: scale(1.2);
+          transition: 1s ease;
+        }
+
       </style>
     <head>
      
@@ -19,126 +32,42 @@
     </head>
     <body>
 
-        
-        <div class= "container">
-            <div class="gallery1">
-                <div class="column">
-                    <div class="photos">
-                        <img src="trends\Image1.jpg" alt="">
-                    </div>
-                
-                    <div class="photos">
-                        <img src="trends\Image2.jpg" alt="">
-                    </div>
-                
-                    <div class="photos">
-                        <img src="trends\Image3.jpg" alt="">
-                    </div>
-                    <div class="photos">
-                        <img src="trends\Image4.jpg" alt="">
-                    </div>
-                
-                    <div class="photos">
-                        <img src="trends\Image5.jpg" alt="">
-                    </div>
-                
-                    <div class="photos">
-                        <img src="trends\Image6.jpg" alt="">
-                    </div>
-                    <div class="photos">
-                        <img src="trends\Image7.jpg" alt="">
-                    </div>
-                
-                    <div class="photos">
-                        <img src="trends\Image8.jpg" alt="">
-                    </div>
-                
-                    <div class="photos">
-                        <img src="trends\Image9.jpg" alt="">
-                    </div>
-                    <div class="photos">
-                        <img src="trends\Image10.jpg" alt="">
-                    </div>
-                
-                    <div class="photos">
-                        <img src="trends\Image11.jpg" alt="">
-                    </div>
-                
-                    <div class="photos">
-                        <img src="trends\Image12.jpg" alt="">
-                    </div>
-                    <div class="photos">
-                        <img src="trends\Image13.jpg" alt="">
-                    </div>
-                
-                    <div class="photos">
-                        <img src="trends\Image14.jpg" alt="">
-                    </div>
-                
-                    <div class="photos">
-                        <img src="trends\Image15.jpg" alt="">
-                    </div>
-                    <div class="photos">
-                        <img src="trends\Image16.jpg" alt="">
-                    </div>
-                
-                    <div class="photos">
-                        <img src="trends\Image17.jpg" alt="">
-                    </div>
-                
-                    <div class="photos">
-                        <img src="trends\Image18.jpg" alt="">
-                    </div>
-                    <div class="photos">
-                        <img src="trends\Image19.jpg" alt="">
-                    </div>
-                
-                    <div class="photos">
-                        <img src="trends\Image20.jpg" alt="">
-                    </div>
-                
-                    <div class="photos">
-                        <img src="trends\Image21.jpg" alt="">
-                    </div>
-                    <div class="photos">
-                        <img src="trends\Image22.jpg" alt="">
-                    </div>
-                
-                    <div class="photos">
-                        <img src="trends\Image23.jpg" alt="">
-                    </div>
-                
-                    <div class="photos">
-                        <img src="trends\Image24.jpg" alt="">
-                    </div>
-                    <div class="photos">
-                        <img src="trends\Image25.jpg" alt="">
-                    </div>
-                
-                    <div class="photos">
-                        <img src="trends\Image26.jpg" alt="">
-                    </div>
-                
-                    <div class="photos">
-                        <img src="trends\Image27.jpg" alt="">
-                    </div>
-                    <div class="photos">
-                        <img src="trends\Image28.jpg" alt="">
-                    </div>
-                
-                    <div class="photos">
-                        <img src="trends\Image29.jpg" alt="">
-                    </div>
-                
-                    <div class="photos">
-                        <img src="trends\Image30.jpg" alt="">
-                    </div>
+        <div class="container">
+            <div class="gallery1" >
+                <div class="column" id="imagecolumn">
+
                 </div>
-                
             </div>
-            
-            
         </div>
+
+    
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const imagecolumn = document.getElementById('imagecolumn');
+    
+                // Array of image file names
+                const imageNames = [
+                    "Image1.jpg", "Image2.jpg", "Image3.jpg", "Image4.jpg", "Image5.jpg", 
+                    "Image6.jpg", "Image7.jpg", "Image8.jpg", "Image9.jpg", "Image10.jpg", 
+                    "Image11.jpg", "Image12.jpg", "Image13.jpg", "Image14.jpg", "Image15.jpg",
+                    "Image16.jpg", "Image17.jpg", "Image18.jpg", "Image19.jpg", "Image20.jpg",
+                    "Image21.jpg", "Image22.jpg", "Image23.jpg", "Image24.jpg", "Image25.jpg",
+                    "Image26.jpg", "Image27.jpg", "Image28.jpg", "Image29.jpg", "Image30.jpg"
+                ];
+    
+                // Loop through image names and create img elements
+                for (const imageName of imageNames) {
+                    const img = document.createElement('img');
+                    img.src = `trends/${imageName}`; // Assuming your images are in a folder named "trends"
+                    img.alt = "Image";
+                    img.classList.add('photos'); // Add a class for styling if needed
+                    imagecolumn.appendChild(img);
+                }
+            });
+        </script>
+    
+
         
+    
     </body>
 </html>
