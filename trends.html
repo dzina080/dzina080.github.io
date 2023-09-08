@@ -1,30 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Responsive Image Column</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
+            padding: 0;
+            background-color: #f9ead8; /* Set the background color */
         }
 
-        img {
-            max-width: 100%;
-            height: auto;
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .image {
+            max-width: 100%; /* Ensure the image does not exceed its original size */
+            width: calc(100% - 40px); /* Adjusted for a 20px gap (20px on each side) */
+            margin: 10px; /* 20px gap */
+            border-radius: 10px; /* Rounded corners */
+            object-fit: cover; /* Maintain image aspect ratio */
         }
     </style>
 </head>
 <body>
-    <img src="trends\Image24.jpg" alt="Image 1">
-    <img src="trends\Image25.jpg" alt="Image 2">
-    <img src="trends\Image23.jpg" alt="Image 3">
-    <!-- Add more images as needed -->
+    <div class="image-container" id="image-container">
+        <!-- Images will be loaded here programmatically -->
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const imageContainer = document.getElementById('image-container');
+
+            // Array of image file names
+            const imageNames = [
+                "image12.jpg", "image22.jpg", "image3.jpg"
+                // Add more image file names as needed
+            ];
+
+            // Loop through image names and create img elements
+            for (const imageName of imageNames) {
+                const img = document.createElement('img');
+                img.classList.add('image'); // Add the 'image' class for styling
+
+                img.src = `trends/${imageName}`;
+                img.alt = `Image ${imageName}`;
+
+                imageContainer.appendChild(img);
+            }
+        });
+    </script>
 </body>
 </html>
